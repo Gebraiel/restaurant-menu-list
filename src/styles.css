@@ -1,0 +1,77 @@
+#root {
+  position: relative;
+}
+body {
+  background-color: hsl(20, 50%, 98%);
+}
+p {
+  margin-bottom: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.product-category {
+  color: hsl(14, 25%, 72%);
+}
+.product-price {
+  color: hsl(14, 86%, 42%);
+}
+.card-body .buttons {
+  width: 90%;
+  border: 1px solid hsl(14, 86%, 42%);
+}
+.card-body .buttons.bg-danger {
+  background-color: hsl(14, 86%, 42%) !important;
+  color: white;
+}
+.card-body .buttons.bg-danger button {
+  color: white;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+}
+.neutral-delivery {
+  background-color: hsl(20, 50%, 98%);
+}
+.cart-product .product-details .product-count {
+  color: hsl(14, 86%, 42%) !important;
+}
+.cart-product .product-details .price {
+  color: hsl(7, 20%, 60%);
+}
+.cart-product .product-details .total {
+  color: hsl(12, 20%, 44%);
+}
+.order-total b {
+  font-size: 1.5rem;
+}
+.popup {
+  background-color: white;
+  max-width: 600px;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+}
+.popup {
+  position: fixed;
+  top: 50vh;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.popup .product-image img {
+  height: 60px;
+  width: auto;
+}
+.popup .products {
+  background-color: hsl(20, 50%, 98%);
+}
+li.thumbnail-product:first-child {
+  padding-top: 0 !important;
+}
